@@ -161,13 +161,6 @@ In dir.create("testdir") : 'testdir' already exists
 | This should be the only file in this newly created directory. Let's check this by listing all the files in
 | the current directory.
 
-> ls()
-[1] "e"       "my_div"  "my_sqrt" "old.dir" "x"       "y"       "z"      
-
-| Not quite right, but keep trying. Or, type info() for more options.
-
-| list.files() shows that the directory only contains mytest.R.
-
 > list.files()
 [1] "mytest.R"  "mytest2.R" "mytest3.R" "testdir2" 
 
